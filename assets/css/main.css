@@ -220,6 +220,10 @@ body {
   margin: 0 auto;
 }
 
+.small {
+  font-size: 80%;
+}
+
 .all-caps {
   text-transform: uppercase;
 }
