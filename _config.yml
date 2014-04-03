@@ -33,12 +33,13 @@ bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
-links:
   # - title: Theme Setup
   #   url: /theme-setup
   # - title: External Link
   #   url: http://mademistakes.com
   #   external: true
+
+links:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
