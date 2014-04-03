@@ -3,11 +3,9 @@ layout: post
 title: Welcome!
 description: "Welcome to my blog."
 modified: 2014-04-01
-tags: [sample post]
+tags: []
 image:
-  feature: abstract-3.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: halong.jpg
 comments: true
 share: true
 ---
