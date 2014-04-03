@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about/
-title: About Me
+title: Josh Balloch - About Me
 tags: []
 image:
   feature: abstract-5.jpg
@@ -12,22 +12,52 @@ share: true
 
 Hey there!
 
-I'm a full stack web developer working as the lead at [Gigabase](http://www.gigabase.org).
+I'm a full stack web developer working as the tech lead at [Gigabase](http://www.gigabase.org). I'm passionate about building innovative products in disruptive industries.
 
-Check out what I've been up to below
+Here's a quick look at what I've been up to:
 
 <div class="small">
-  *Psst!* If you want, you can <a href="{{ site.url }}/assets/resume.pdf" style="margin-left:10px;" target="_blank">download my resume.</a>
+  <em>Psst!</em> If you want, you can <a href="{{ site.url }}/assets/resume.pdf" target="_blank">download my resume.</a>
 </div>
 
-## What I've done:
+## Gigabase
 
-* Simple and clear permalink structure[^1].
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy
+I joined [Gigabase](http://www.gigabase.org) in June of 2012, and was promoted to lead developer after one year at the company. Currently I'm leading an effort to focus and re-energize our company’s offerings, primarily by building it as an enterprise SaaS for materials management.
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup" class="btn btn-info">Install the Theme</a></div>
+I spend most of my time building features and coding throughout our stack. We use Ruby on Rails and Backbone/Marionette for our application, in addition to a smattering of other tech you can check out [in my resume.]( {{ site.url }}/assets/resume.pdf )
 
-[^1]: Example: *domain.com/category-name/post-title*
+I also plan our site's architecture and development process, as well as work with the Product team as part of a standard product management process.
 
-<a href="{{ site.url }}/assets/resume.pdf" style="margin-left:10px;" target="_blank" class="btn btn-success">Download My Resume.</a>
+## Airaware
+
+I'm also leading the tech development of AirAware, an indoor air quality monitoring service for schools & offices in China.
+
+In addition to building the site, I'm working closely with some leading hardware manufacturers and building APIs to integrate their sensors' data into our platform.
+
+## Thinkspace
+
+Way back when I was getting started in web development, my brother and I were really interested in the idea of what we liked to call "consensus philosophy".
+
+We wondered whether modern media is structured in a way that causes a limited range in opinions and interests to dominate.
+
+Think about how few news stories handled at a time in most contempory media, or how many issues get boiled down to oversimplified soundbytes and "us" vs "them" mentalities.
+
+Think about the principal of "upvotes" and "downvotes", and how they encourage people to have an opinion by picking a side. These tend to polarize issues and a lot of knowledge, relief and context gets lost in the process.
+
+We wanted to explore what ways it would be possible to counteract this prevailing wind, and so we created an online community focused informative discussion on contemporary issues.
+
+It's since been put on ice, but it was a great project and an excellent entry into web development.
+
+### Other Projects & Experience
+
+* I redesigned the [McGill Journal of Law & Health]( http://mjlh.mcgill.ca ) website.
+* I worked as a graphic designer & photographer at [RedBox Studio](http://art.redboxstudio.cn/en)
+* I was the primary photographer for the [Fodor's Guide to Beijing, 2008 Olympics Edition]( http://www.amazon.co.uk/Fodors-Guide-Beijing-Olympics-Edition/dp/7200070459 ). That's my image on the cover!
+
+
+## Want to know more?
+
+
+<a href="mailto:joshuaballoch@gmail.com" class="btn btn-info"><i class="icon-envelope"></i> Email Me</a>
+<br>
+<a href="{{ site.url }}/assets/resume.pdf" target="_blank" class="btn btn-success">Download My Resume.</a>
