@@ -14,4 +14,4 @@ Congratulations! You're here.
 
 [Get to know who I am.]({{site_url}}/about/)
 
-[Check out my resume.]({{site_url}}/assets/resume.pdf)
+[Check out my resume.]({{site_url}}/assets/joshua_andrew_balloch_resume.pdf)
