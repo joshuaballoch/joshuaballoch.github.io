@@ -22,6 +22,11 @@ Here's a quick look at what I've been up to:
 
 I joined [Gigabase](http://www.gigabase.org) in June of 2012, and was promoted to lead developer after one year at the company. Currently I'm leading an effort to focus and re-energize our company’s offerings, primarily by building it as an enterprise SaaS for materials management.
 
+<figure class="half centred">
+  <a href="{{ site.url }}/images/about/giga_chunjie.jpg"><img src="{{ site.url }}/images/about/giga_chunjie.jpg" alt=""></a>
+  <figcaption><a href="{{ site.url }}/images/about/giga_chunjie.jpg" title="Part of the team, celebrating Chinese New Year">Part of the team, celebrating Chinese New Year</a>.</figcaption>
+</figure>
+
 I spend most of my time building features and coding throughout our stack. We use Ruby on Rails and Backbone/Marionette for our application, in addition to a smattering of other tech you can check out [in my resume.]( {{ site.url }}/assets/joshua_andrew_balloch_resume.pdf )
 
 I also plan our site's architecture and development process, as well as work with the Product team as part of a standard product management process.
@@ -29,6 +34,12 @@ I also plan our site's architecture and development process, as well as work wit
 ## Airaware - Tech Lead & Web Developer
 
 I'm also leading the tech development of AirAware, an indoor air quality monitoring service for schools & offices in China.
+
+<figure class="half centred">
+  <a href="{{ site.url }}/images/about/airaware.jpg"><img src="{{ site.url }}/images/about/airaware.jpg" alt=""></a>
+  <figcaption><a href="{{ site.url }}/images/about/airaware.jpg" title="AirAware">Sensors monitor PM 2.5 and other pollutants</a>.</figcaption>
+</figure>
+
 
 In addition to building the site, I'm working closely with some leading hardware manufacturers and building APIs to integrate their sensors' data into our platform.
 

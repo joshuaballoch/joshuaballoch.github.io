@@ -224,6 +224,11 @@ body {
   font-size: 80%;
 }
 
+.centred {
+  width: 310px;
+  margin: auto;
+}
+
 .all-caps {
   text-transform: uppercase;
 }
@@ -3791,6 +3796,12 @@ body {
   position: relative;
   width: 100%;
   overflow: hidden;
+}
+
+.entry-header nav.upper-right-menu {
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 
 .header-title {
