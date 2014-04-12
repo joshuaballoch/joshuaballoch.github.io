@@ -63,10 +63,18 @@ It's since been put on ice, but it was a great project and an excellent entry in
 * I worked as a graphic designer & photographer at [RedBox Studio](http://art.redboxstudio.cn/en)
 * I was the primary photographer for the [Fodor's Guide to Beijing, 2008 Olympics Edition]( http://www.amazon.co.uk/Fodors-Guide-Beijing-Olympics-Edition/dp/7200070459 ). That's my image on the cover!
 
-
 ## Want to know more?
 
+Feel free to contact me or download my resume:
 
 <a href="mailto:joshuaballoch@gmail.com" class="btn btn-info"><i class="icon-envelope"></i> Email Me</a>
 <br>
 <a href="{{ site.url }}/assets/joshua_andrew_balloch_resume.pdf" target="_blank" class="btn btn-success">Download My Resume.</a>
+
+Or, check out some of my profiles on other sites:
+
+* [Github](http://www.github.com/joshuaballoch)
+* [Stackoverflow](http://stackoverflow.com/users/722890/jay)
+* [LinkedIn](http://linkedin.com/in/joshuaballoch)
+* [Angel.co](https://angel.co/joshua-balloch)
+
