@@ -15,19 +15,21 @@ I'm a full stack web developer working as the tech lead at [Gigabase](http://www
 Here's a quick look at what I've been up to:
 
 <div class="small">
-  <em>Psst!</em> If you want, you can <a href="{{ site.url }}/assets/joshua_andrew_balloch_resume.pdf" target="_blank">download my resume.</a>
+  <em>Psst!</em> If you want, you can <a href="{{ site.url }}/public/joshua_andrew_balloch_resume.pdf" target="_blank">download my resume.</a>
 </div>
 
 ## Gigabase - Lead Web Developer
 
 I joined [Gigabase](http://www.gigabase.org) in June of 2012, and was promoted to lead developer after one year at the company. Currently I'm leading an effort to focus and re-energize our company’s offerings, primarily by building it as an enterprise SaaS for materials management.
 
+<!--
 <figure class="half centred">
   <a href="{{ site.url }}/images/about/giga_chunjie.jpg"><img src="{{ site.url }}/images/about/giga_chunjie.jpg" alt=""></a>
   <figcaption><a href="{{ site.url }}/images/about/giga_chunjie.jpg" title="Part of the team, celebrating Chinese New Year">Part of the team, celebrating Chinese New Year</a>.</figcaption>
 </figure>
 
-I spend most of my time building features and coding throughout our stack. We use Ruby on Rails and Backbone/Marionette for our application, in addition to a smattering of other tech you can check out [in my resume.]( {{ site.url }}/assets/joshua_andrew_balloch_resume.pdf )
+-->
+I spend most of my time building features and coding throughout our stack. We use Ruby on Rails and Backbone/Marionette for our application, in addition to a smattering of other tech you can check out [in my resume.]( {{ site.url }}/public/joshua_andrew_balloch_resume.pdf )
 
 I also plan our site's architecture and development process, as well as work with the Product team as part of a standard product management process.
 
@@ -69,7 +71,7 @@ Feel free to contact me or download my resume:
 
 <a href="mailto:joshuaballoch@gmail.com" class="btn btn-info"><i class="icon-envelope"></i> Email Me</a>
 <br>
-<a href="{{ site.url }}/assets/joshua_andrew_balloch_resume.pdf" target="_blank" class="btn btn-success">Download My Resume.</a>
+<a href="{{ site.url }}/public/joshua_andrew_balloch_resume.pdf" target="_blank" class="btn btn-success">Download My Resume.</a>
 
 Or, check out some of my profiles on other sites:
 

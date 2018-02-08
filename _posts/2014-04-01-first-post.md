@@ -10,8 +10,6 @@ comments: true
 share: true
 ---
 
-Congratulations! You're here.
-
 [Get to know who I am.]({{site_url}}/about/)
 
-[Check out my resume.]({{site_url}}/assets/joshua_andrew_balloch_resume.pdf)
+[Check out my resume.]({{site_url}}/public/joshua_andrew_balloch_resume.pdf)
