@@ -59,7 +59,7 @@ It's since been put on ice, but it was a great project and an excellent entry in
 
 ### Other Projects & Experience
 
-* I redesigned the [McGill Journal of Law & Health]( http://mjlh.mcgill.ca ) website.
+* I redesigned the [McGill Journal of Law & Health](https://web.archive.org/web/20140814212005/https://mjlh.mcgill.ca/) website.
 * I worked as a graphic designer & photographer at [RedBox Studio](http://art.redboxstudio.cn/en)
 * I was the primary photographer for the [Fodor's Guide to Beijing, 2008 Olympics Edition]( http://www.amazon.co.uk/Fodors-Guide-Beijing-Olympics-Edition/dp/7200070459 ). That's my image on the cover!
 
