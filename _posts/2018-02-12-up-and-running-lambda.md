@@ -12,7 +12,7 @@ This post is the first in a [series](/production-ready-aws-lambda) about getting
 
 In this post, we'll focus on getting up and running with a Lambda function, with the ability to deploy using a single command. We'll also get the local development environment set up, and build space into the configuration for deployed to staged environments.
 
-Just to note - the end goal of this post is a lambda function that won't actually do anything. We'll be building in functionality in future posts, specifically we'll be building a function that simulates doing data processing in a data pipeline. We'll develop and test that function locally before deploying. For now, we'll just build the base dev environment and deploy an empty function to AWS>
+Just to note - the end goal of this post is a lambda function that won't actually do anything. In future posts, we'll add functionality that simulates doing data processing in a data pipeline. We'll develop and test that function locally before deploying. For now, we'll just build the base dev environment and deploy an empty function to AWS>
 
 ## Getting Started
 
