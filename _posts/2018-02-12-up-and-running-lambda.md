@@ -12,9 +12,13 @@ This post is the first in a [series](/production-ready-aws-lambda) about getting
 
 In this post, we'll focus on getting up and running with a Lambda function, with the ability to deploy using a single command. We'll also get the local development environment set up, and build space into the configuration for deployed to staged environments.
 
+Just to note - the end goal of this post is a lambda function that won't actually do anything. We'll be building in functionality in future posts, specifically we'll be building a function that simulates doing data processing in a data pipeline. We'll develop and test that function locally before deploying. For now, we'll just build the base dev environment and deploy an empty function to AWS>
+
 ## Getting Started
 
-We'll be building Python Lambda functions, and deploying them using a tool called Serverless. Before we get started, make sure you have serverless installed, or [head over to serverless' installation instructions.](https://serverless.com/framework/docs/getting-started/)
+We'll be building Python Lambda functions, and deploying them using a tool called [Serverless.](https://serverless.com/) `Serverless` is a toolkit that provides a command-line interface for deploying and managing serverless functions. It works with AWS Lambda, and also supports other cloud providers' serverless implementations.
+
+Before we get started, make sure you have serverless installed, or [head over to serverless' installation instructions.](https://serverless.com/framework/docs/getting-started/)
 
 Let's create our starting function using serverless' template for a Python 3.x runtime:
 
@@ -61,7 +65,7 @@ Now when we deploy our function, we can specify which environment we're deployin
 
 ## Development Environment
 
-We want to be able to develop this lambda function locally before deploying it to AWS. We want a predictable local environment for development, so let's use virtualenv to initialize an environment for this specific project. If we ever need to develop on multiple, different python projects, this will help us manage each environment separately.
+Our aim is to build a development setup for Lambda functions, writing and testing python code locally before deploying it to AWS. For this, it would be great to have a predictable local dev environment. Luckily, python's `virtualenv` does exactly this; we'll use it to create a python environment specifically for our project.
 
 If you haven't already installed python 3.x, go ahead and install it with `brew`. Then create a virtualenv configuration in `.venv` of the project directory:
 
@@ -140,3 +144,5 @@ serverless remove --staging staging
 We now have a simple starting lambda function to build off of, we can deploy it with a single command to multiple environments, and we have our local development environment set up.
 
 As a side note, many people will run into the need to use custom python packages in their Lambda functions. Serverless has good support for this use case, but the setup required for this is a little more involved, which I will detail in my next post.
+
+The code created in this post is [available here.](https://github.com/joshuaballoch/deploying-lambda)
