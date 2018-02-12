@@ -12,7 +12,7 @@ Serverless functions, like AWS Lambda, provide an easy way to get started buildi
 
 If you’re building something production-oriented though, you need more than that. You’ll need to continue to deploy changes to your function. You'll want to be able to push it to a pre-production environment before a prod deploy, and it's a good idea to introduce automated testing. Plus, nobody wants to be editing production code directly in the browser.
 
-In this series, I'll explore building a production-ready workflow AWS Lambda functions. The first post will get users set up with a basic development environment, complete with one-line deploys using [Serverless](https://serverless.com/). 
+In this series, I'll explore building a production-ready workflow AWS Lambda functions. [The first post](/up-and-running-lambda) will get users set up with a basic development environment, complete with one-line deploys using [Serverless](https://serverless.com/). 
 
 In my next post, I'll show users how to improve that setup to support deploying custom python packages with your Lambda functions. In my third post of this series, I'll walk through how to write automated tests for Lambda. Finally, I'll look into using CI tools to automate test builds and deployments.
 
