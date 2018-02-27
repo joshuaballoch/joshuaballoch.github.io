@@ -143,6 +143,6 @@ serverless remove --staging staging
 
 We now have a simple starting lambda function to build off of, we can deploy it with a single command to multiple environments, and we have our local development environment set up.
 
-As a side note, many people will run into the need to use custom python packages in their Lambda functions. Serverless has good support for this use case, but the setup required for this is a little more involved, which I will detail in my next post.
+As a side note, many people will run into the need to use custom python packages in their Lambda functions. Serverless has good support for this use case, but the setup required for this is a little more involved, and is the subject of [the next post of this series](/custom-packages-lambda).
 
 The code created in this post is [available here.](https://github.com/joshuaballoch/deploying-lambda)
