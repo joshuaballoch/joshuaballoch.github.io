@@ -6,7 +6,7 @@ modified: 2014-04-01
 tags: []
 image:
   feature: halong.jpg
-comments: true
+comments: false
 share: true
 ---
 
