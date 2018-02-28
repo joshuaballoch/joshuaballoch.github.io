@@ -16,11 +16,11 @@ Notably absent from my experience so far, though, was automated testing. I wante
 
 In researching this topic, I came across a few approaches, most notably [placebo](https://github.com/garnaat/placebo), discussed in [this post](https://serverless.zone/unit-and-integration-testing-for-lambda-fc9510963003), and [moto](https://github.com/spulec/moto). Placebo acts as a request-recorder of sorts - it will allow you to record calls to AWS and then play them back later. Moto's approach is to mock out AWS services entirely, in a stateful way. Your code still can make calls to create and alter resources, and it will appear as though these changes are actually being made. However, this is all happening in moto's mocked services, not on AWS directly.
 
-Personally, I think that moto's approach is a lot more flexible. Using it, we can enable testing through state verification. If we alter the implementation or add new behaviour, there aren't any recorded or manually mocked requests to update. Tests will depend on `moto` correctly mocking AWS services - but as a tradeoff, I think this is a worthwhile one.
+I think that moto's approach is a lot more flexible. Using it, we can enable testing through state verification. If we alter the implementation or add new behaviour, there aren't any recorded or manually mocked requests to update. Tests will depend on `moto` correctly mocking AWS services - but as a tradeoff, I think this is a worthwhile one.
 
 With this in mind, let's TDD a Lambda function, using `moto` and `pytest` for testing, and Serverless to get it deployed to AWS.
 
-This post uses as its starting point the basic Lamdba setup created in the [first post](/up-and-running-lambda) of this series, [which can be downloaded here.](https://github.com/joshuaballoch/deploying-lambda/tree/399de54dc9b0d5ce7cdd8298abe91a27f084971f) 
+This post uses as its starting point the basic Lamdba setup created in the [first post](/up-and-running-lambda) of this series, [which can be downloaded here.](https://github.com/joshuaballoch/deploying-lambda/tree/399de54dc9b0d5ce7cdd8298abe91a27f084971f). There are also links to the code at different points in this tutorial at the bottom of the post.
 
 ## Getting Started
 
@@ -72,7 +72,7 @@ def test_handler_moves_incoming_object_to_processed():
     assert call(None, None) == None
 ```
 
-A quick run of `$ pytest test_handler.py` will show that this test (that tests nothing) currently passes.
+A quick run of `$ pytest test_handler.py` will verify that our test framework is appropriately set up.
 
 ## Testing S3 Interactions
 
@@ -118,6 +118,10 @@ def s3_object_created_event(bucket_name, key):
 Now the test setup is there. Let's add assertions that the function moves the file from `incoming/` to `processed/`:
 
 ```py
+def test_handler_moves_incoming_object_to_processed():
+    with mock_s3():
+        # ... (test setup)
+        # 
         # Assert the original file doesn't exist
         with pytest.raises(ClientError) as e_info:
             conn.Object("some-bucket", "incoming/transaction-0001.txt").get()
@@ -152,7 +156,9 @@ def call(event, context):
     move_object_to_processed(s3_client, bucket, key)
 ```
 
-Tada! We've now built our first set of functionality out with TDD. Let's get it deployed before moving on to adding DynamoDB into the function.
+Tada! We've now built our first set of functionality out with TDD. When we run our tests now, they're passing - and no calls are made to AWS. That's because `moto` is a stateful mock - it's letting us make `boto` calls as we normally would, but it has removed any live calls to AWS. Additionally, it builds up state as you would normally expect with AWS - create a bucket, upload a file... from the perspective of subsequent `boto` calls in the test environment, these resources are actually there.
+
+Let's get it deployed before moving on to adding DynamoDB into the function.
 
 ## Our First Deploy
 
@@ -219,7 +225,7 @@ resources:
           - Ref: IamRoleLambdaExecution
 ```
 
-That's a little convoluted - and I don't think there's much skipping that with AWS - but at least we now have a deployable system. 
+That's a little convoluted - and I don't think there's much skipping that with AWS - but at least we now have a deployable system. (I don't have any shortcuts with AWS's more complex sides - here's a link to an [open-source guide](https://github.com/open-guides/og-aws) that's pretty good, and there's always [AWS's documentation](https://aws.amazon.com/cn/documentation/)..)
 
 Go ahead and deploy it to your AWS account and test the function manually by uploading a transaction file to the `incoming` folder in the bucket. My test transaction file is a simple one-line file, and follows the naming convention `transaction-0001.txt`
 
@@ -307,7 +313,7 @@ def test_handler_adds_record_in_dynamo_db_about_object():
         assert item['body'] == 'Hello World!'
 ```
 
-A quick run of `pytest test_handler.py` reveals that the test is failing. Let's add this functionality to the lambda function:
+A quick run of `pytest test_handler.py` will reveal that the test is failing. Let's add this functionality to the lambda function:
 
 ```py
     table = boto3.resource('dynamodb', region_name='us-east-1').Table("my-transactions-table")
