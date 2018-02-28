@@ -7,6 +7,7 @@ tags: []
 image:
   feature: halong.jpg
 comments: false
+subscribe_cta: true
 share: true
 ---
 

@@ -5,6 +5,7 @@ description: "Learn how to test - and TDD - lambda functions!"
 modified: 2018-02-28
 tags: [python, lambda, aws-lambda, aws, python3, serverless]
 comments: true
+subscribe_cta: true
 share: true
 ---
 

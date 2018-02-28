@@ -5,6 +5,7 @@ description: "Add support for extra python packages your Lambda function in a fe
 modified: 2018-02-27
 tags: [python, lambda, aws-lambda, aws, python3, serverless]
 comments: true
+subscribe_cta: true
 share: true
 ---
 

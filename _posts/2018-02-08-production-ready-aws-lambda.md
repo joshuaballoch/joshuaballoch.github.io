@@ -5,6 +5,7 @@ description: "Announcing a new series of posts on getting up and running with AW
 modified: 2018-02-08
 tags: [python, lambda, aws-lambda, aws, python3, serverless]
 comments: true
+subscribe_cta: true
 share: true
 ---
 

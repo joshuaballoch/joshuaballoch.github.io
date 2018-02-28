@@ -5,6 +5,7 @@ description: "Get a development environment set up for Python Lambda functions, 
 modified: 2018-02-12
 tags: [python, lambda, aws-lambda, aws, python3, serverless]
 comments: true
+subscribe_cta: true
 share: true
 ---
 
