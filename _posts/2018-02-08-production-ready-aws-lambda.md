@@ -14,6 +14,8 @@ If you’re building something production-oriented though, you need more than th
 
 In this series, I'll explore building a production-ready workflow AWS Lambda functions. [The first post](/up-and-running-lambda) will get users set up with a basic development environment, complete with one-line deploys using [Serverless](https://serverless.com/). 
 
-In my next post, I'll show users how to improve that setup to support deploying custom python packages with your Lambda functions. In my third post of this series, I'll walk through how to write automated tests for Lambda. Finally, I'll look into using CI tools to automate test builds and deployments.
+In my [next post](/custom-packages-lambda), I'll show users how to improve that setup to support deploying custom python packages with your Lambda functions. In my [third post](/testing-lambda-functions) of this series, I'll walk through how to write automated tests for Lambda. Finally, I'll look into using CI tools to automate test builds and deployments.
 
 As most of my experience with Lambda has been from more of a data science / data engineering angle, we'll explore using Python as the Lambda function's runtime language.
+
+If anyone has feedback on other things to work into this series, let me know via the comments section below!
