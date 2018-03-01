@@ -12,9 +12,9 @@ Hey there!
 
 I've been working for the last 6 years as a software engineer and software consultant. I've worked with teams in Shanghai, New York, and now London.
 
-Most recently, I've been working as the interim Head of Technology at a Pet Technology startup in London called [felcana](felcana.com), helping them build out their core tech services, build out the team, and get from prototype to production.
+Most recently, I've been working as the interim Head of Technology at a Pet Technology startup in London called [Felcana](http://felcana.com), helping them build out their core tech services, build out the team, and get from prototype to production.
 
-I've previously worked with [Casper](casper.com), [Florence](florence.co.uk), [Plated](plated.com), [Gigabase](gigabase.org), alongside other gigs, projects, and (failed) startup ideas.
+I've previously worked with [Casper](http://casper.com), [Florence](http://florence.co.uk), [Plated](http://plated.com), [Gigabase](http://gigabase.org), alongside other gigs, projects, and (failed) startup ideas.
 
 I currently work with companies on a consulting and advisory basis. If you're interested in working together, or just want to get coffee and meet up, <a href="mailto:joshuaballoch@gmail.com">drop me an email!</a>
 
