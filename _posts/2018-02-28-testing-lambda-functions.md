@@ -36,7 +36,7 @@ Right now our Lambda function, [created in this previous post](/up-and-running-l
 ```py
 # handler.py
 def call(event, context):
-    print "hello from handler!"
+    print("hello from handler!")
 ```
 
 ## Adding a Test File
