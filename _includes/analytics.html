@@ -43,10 +43,9 @@
       function registerScrollTracker() {
         var scrollTracker = window.ScrollTracker();
         scrollTracker.on(config, function(evt) {
-            console.log(evt.data.label);
-          gtag('event', 'scroll_to', {
+          gtag('event', evt.data.label, {
             'event_category': 'Scroll Tracking',
-            'event_label': evt.data.label,
+            'event_label': document.location.pathname,
             'value': evt.data.label
           });
         });
