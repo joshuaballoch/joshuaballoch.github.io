@@ -7,3 +7,52 @@
 
   gtag('config', 'UA-49661240-1');
 </script>
+
+{% if page.enable_scroll_tracking %}
+  <script type="text/javascript" src="/public/vendor/scroll-tracker.min.js"></script>
+  <script>
+    (function(document, window) {
+  
+      var config = {
+        percentages: {
+          each: [25, 50, 75, 90, 100],
+        }
+      };
+      var trackerId = 'UA-49661240-1';  // e.g. UA-000000-00
+      var maxTries = 100
+      var loadAttempts = 0
+
+      if (document.readyState !== "loading") { 
+        init();
+      } else {
+        document.addEventListener('DOMContentLoaded', init);
+      }
+  
+      function init() {
+        if (loadAttempts < maxTries) {
+          if (gtag && document.getElementById("disqus_thread").clientHeight > 300) {
+            registerScrollTracker()
+          } else {
+            loadAttempts += 1
+              setTimeout(function() {
+                init()
+              }, 50);
+          }
+        }
+      }
+      function registerScrollTracker() {
+        var scrollTracker = window.ScrollTracker();
+        scrollTracker.on(config, function(evt) {
+            console.log(evt.data.label);
+          gtag('event', 'scroll_to', {
+            'event_category': 'Scroll Tracking',
+            'event_label': evt.data.label,
+            'value': evt.data.label
+          });
+        });
+  
+      }
+  
+    })(document, window);
+  </script>
+{% endif %}
