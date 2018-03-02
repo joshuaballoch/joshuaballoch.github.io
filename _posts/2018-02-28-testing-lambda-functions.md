@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Testing Lambda Functions
+title: Testing Lambda Functions Locally
 description: "Learn how to test - and TDD - lambda functions!"
-modified: 2018-02-28
-tags: [python, lambda, aws-lambda, aws, python3, serverless]
+modified: 2018-03-02
+tags: [tdd, python, lambda, aws-lambda, aws, python3, serverless]
 comments: true
 subscribe_cta: true
 enable_scroll_tracking: true
@@ -14,7 +14,7 @@ share: true
 
 I've had the chance to use Lambda functions at two of my previous clients. With a low cost of getting started, Lambda has been useful for building and testing new ideas, and has proven mature enough for production.
 
-Notably absent from my experience so far, though, was automated testing. I wanted to find a way to test Lambda functions effectively - preferably, in a test environment that would not make live calls to AWS, and allow me to test the behaviour of a given function at a high level.
+Notably absent from my experience so far, though, was automated testing. I wanted to find a way to test Lambda functions while developing them - preferably, in a test environment that would not make live calls to AWS, and allow me to test the behaviour of a given function at a high level.
 
 In researching this topic, I came across a few approaches, most notably [placebo](https://github.com/garnaat/placebo), discussed in [this post](https://serverless.zone/unit-and-integration-testing-for-lambda-fc9510963003), and [moto](https://github.com/spulec/moto). Placebo acts as a request-recorder of sorts - it will allow you to record calls to AWS and then play them back later. Moto's approach is to mock out AWS services entirely, in a stateful way. Your code still can make calls to create and alter resources, and it will appear as though these changes are actually being made. However, this is all happening in moto's mocked services, not on AWS directly.
 
