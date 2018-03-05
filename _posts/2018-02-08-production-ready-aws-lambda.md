@@ -2,7 +2,7 @@
 layout: post
 title: Production-Ready AWS Lambda (Series)
 description: "Announcing a new series of posts on getting up and running with AWS Lambda in a production-ready way."
-modified: 2018-02-08
+modified: 2018-03-05
 tags: [python, lambda, aws-lambda, aws, python3, serverless]
 comments: true
 subscribe_cta: true
@@ -16,7 +16,7 @@ If you’re building something production-oriented though, you need more than th
 
 In this series, I'll explore building a production-ready workflow AWS Lambda functions. [The first post](/up-and-running-lambda) will get users set up with a basic development environment, complete with one-line deploys using [Serverless](https://serverless.com/). 
 
-In my [next post](/custom-packages-lambda), I'll show users how to improve that setup to support deploying custom python packages with your Lambda functions. In my [third post](/testing-lambda-functions) of this series, I'll walk through how to write automated tests for Lambda. Finally, I'll look into using CI tools to automate test builds and deployments.
+In my [next post](/custom-packages-lambda), I'll show users how to improve that setup to support deploying custom python packages with your Lambda functions. In my [third post](/testing-lambda-functions) of this series, I'll walk through how to write automated tests for Lambda. Finally, [I'll look into using CI tools to automate test builds and deployments.](/ci-cd-lambda-functions)
 
 As most of my experience with Lambda has been from more of a data science / data engineering angle, we'll explore using Python as the Lambda function's runtime language.
 
