@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Testing Lambda Functions Locally
+title: Unit Test & TDD Lambda Functions
 description: "Learn how to test - and TDD - lambda functions!"
-modified: 2018-03-02
+modified: 2018-03-07
 tags: [tdd, python, lambda, aws-lambda, aws, python3, serverless]
 comments: true
 subscribe_cta: true
