@@ -20,6 +20,7 @@ I currently work with companies on a consulting and advisory basis. If you're in
 
 Here are my profiles on other sites:
 
+* [Twitter](https://twitter.com/joshuaballoch)
 * [Github](http://www.github.com/joshuaballoch)
 * [Stackoverflow](http://stackoverflow.com/users/722890/jay)
 * [LinkedIn](http://linkedin.com/in/joshuaballoch)

@@ -1,3 +1,14 @@
 .post img {
   width: 100%;
 }
+
+.image-credit {
+  text-align: center;
+  font-size: 13px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 22px;
+}
