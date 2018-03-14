@@ -12,3 +12,27 @@
 h1 {
   margin-bottom: 22px;
 }
+
+.post-date {
+  position: relative;
+  vertical-align: middle;
+}
+
+.post-date-follow-container {
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: -2px;
+  margin-left: 12px;
+}
+
+.twitter-follow-button {
+  margin-top: 1px;
+}
+
+.subscribe-cta {
+  display: inline-block;
+}
+.twitter-follow-container {
+  float: right;
+  margin-top: 16px;
+}
