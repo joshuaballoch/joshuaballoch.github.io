@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Role of Luck in Life is Still Misunderstood
-description: "A recent study’s conclusions are far too wide reaching."
+description: "The wide-sweeping claims of the Talent vs Luck study are hardly the concrete insights they may seem."
 modified: 2018-03-14
 tags: [wealth-inequality, inequality, talent-vs-luck, netlogo, op-ed]
 comments: true
