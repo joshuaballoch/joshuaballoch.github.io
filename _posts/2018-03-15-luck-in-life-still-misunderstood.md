@@ -12,7 +12,7 @@ share: true
 
 The paper [Talent vs Luck: the role of randomness in success and failure](https://arxiv.org/abs/1802.07068), by A. Pluchino. A. E. Biondo, and A. Rapisarda, has been receiving a lot of positive reception lately. 
 
-Unfortunately, the public response has been far too weak in questioning this paper’s claims. The results of its model are discussed in persuasive but misleading ways. The authors do not sufficiently justify the model’s design and validity, and its results feel more a consequence of its design than a proof that similar factors govern career success. Overall this leaves the model feeling contrived, and a poor base from which to extract learnings on real world dynamics.
+Unfortunately, the public response has been far too weak in questioning this paper’s claims. The results of its model are discussed in persuasive but misleading ways. The authors do not sufficiently justify the model’s design and validity. Its results feel more a consequence of its design than a proof that similar factors govern career success. Overall this leaves the model feeling contrived, and a poor base from which to extract learnings on real world dynamics.
 
 To be clear, I care deeply about the issue of growing wealth inequality, and would love for research to be done that finds concrete evidence of how luck and privilege play a role in it. I’m all for finding ways we can adapt policy to help correct for non-meritocratic dynamics.
 
@@ -20,7 +20,9 @@ But it’s important that we make sure public policy (and opinion) shifts on the
 
 In the paper, there’s a big gap between its wide-sweeping claims and the validity of the underlying model. Charts and numbers give the illusion of convincing support which, added together with its alignment to popular world views, make the paper quite persuasive. This has led to  impressive headlines that herald the paper as if it’s concrete proof, like [“The Role of Luck in Life Success Is Far Greater Than We Realized”](https://blogs.scientificamerican.com/beautiful-minds/the-role-of-luck-in-life-success-is-far-greater-than-we-realized/), or [“If you’re so smart, why aren’t you rich? Turns out it’s just chance.”](https://www.technologyreview.com/s/610395/if-youre-so-smart-why-arent-you-rich-turns-out-its-just-chance/).
 
-This fanfare and momentum is seriously misplaced. Let’s get into why.
+This coverage is coming from reputed sources: these last two headlines are from Scientific American and the MIT Review. There's a serious risk of this runaway momentum building an ever-growing chain of misguided agreement.
+
+This fanfare is seriously misplaced. Let’s get into why.
 
 # I. Model Basics
 
