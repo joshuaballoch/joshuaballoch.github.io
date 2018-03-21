@@ -1,1 +1,1 @@
-# Josh Balloch's Blog
+# Joshua Balloch's Blog

@@ -1,14 +1,14 @@
 ---
 layout: page
 permalink: /about/
-title: Josh Balloch - About Me
+title: About Me
 tags: []
 image:
   feature: wood.jpg
 share: true
 ---
 
-Hey there!
+Hello!
 
 I've been working for the last 6 years as a software engineer and software consultant. I've worked with teams in Shanghai, New York, and now London.
 
