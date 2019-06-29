@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="post">
+
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}
   <div class="post-date-follow-container">
@@ -10,6 +11,26 @@ layout: default
   </div></span>
   {{ content }}
 </div>
+
+  <div id="popup1" class="hidden">
+    <h3>Hello!</h3>
+    <p>I started <a href="https://thimble.dev">Thimble</a>, a software consulting firm focused on helping businesses build better software.
+    </p>
+    <p>
+    If you liked this article, live in London, and might be interested in working together, <a href="https://thimble.dev/careers">we're hiring!</a>
+    </p>
+  </div>
+  <script>
+
+    $(document).ready(function() {
+      setTimeout(
+        function() {
+          $(this).simplePopup({ type: "html", htmlSelector: "#popup1" });
+        },
+        10000
+      );
+    });
+  </script>
 
 {% if page.subscribe_cta %}
 <!-- Begin MailChimp Signup Form -->

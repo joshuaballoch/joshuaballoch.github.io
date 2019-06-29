@@ -2,6 +2,14 @@
   width: 100%;
 }
 
+.hidden {
+  display: none;
+}
+.simple-popup-content {
+  border-radius: 15px;
+  padding: 5px 30px;
+}
+
 .image-credit {
   text-align: center;
   font-size: 13px;
